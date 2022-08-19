@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Hangman</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Ahorcado</h1>
+            <p>Introduce una letra en el campo de texto y presiona Enter para jugar.</p>
+            <h2></h2>
+            <input type="text" onkeydown="return /[a-z\u00f1]/i.test(event.key)" maxlength="1">
+            <p>Tienes: <span class="lives">5</span> vidas</p>
+            <p class="previousGuesses"></p>
+            <p class="error"></p>
+        </div>
+    </body>
+    <script src="hangman.js" defer></script>
+</html>

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Heebo&family=Permanent+Marker&family=Roboto&display=swap');
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    letter-spacing: 15px;
+}
+
+.error {
+    color: red;
+}
